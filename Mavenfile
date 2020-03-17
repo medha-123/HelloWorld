@@ -4,10 +4,10 @@ pipeline {
    stages {
       stage('Packaging') {
          steps {
-		 cd C:\Users\medha\eclipse-workspace\maven-demo
-            mvn clean
-            mvn compile
-            mvn install
+		 
+             clean
+             compile
+             install
 			
          }
       }
