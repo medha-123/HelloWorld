@@ -17,5 +17,10 @@ pipeline {
             echo 'Moving'
          }
       }
+	  stage('Temp') {
+         steps {
+            echo 'Temp'
+         }
+      }
    }
 }
