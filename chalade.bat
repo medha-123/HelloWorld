@@ -7,6 +7,4 @@ rem java abc
 rem PAUSE
 
 cd maven-demo
-mvn clean
-mvn compile
-mvn install
+mvn clean compile install
