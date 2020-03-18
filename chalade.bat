@@ -8,3 +8,5 @@ rem PAUSE
 
 cd maven-demo
 mvn clean
+mvn compile
+mvn install
