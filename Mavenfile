@@ -4,7 +4,7 @@ pipeline {
    stages {
       stage('Packaging') {
          steps {
-		     bat cd C:\\Users\\medha\\eclipse-workspace\\maven-demo
+		     bat cd C:\\Users\\medha\\eclipse-workspace\\maven-demo\\
 			 
 			 mvn clean
              mvn compile
