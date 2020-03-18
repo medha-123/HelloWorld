@@ -6,9 +6,9 @@ pipeline {
          steps {
 		     bat "cd C:\\Users\\medha\\eclipse-workspace\\maven-demo"
 			 
-			 mvn clean
-             mvn compile
-             mvn install
+			 bat "mvn clean"
+             bat "mvn compile"
+             bat "mvn install"
 		
 			
          }
